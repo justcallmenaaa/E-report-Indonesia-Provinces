@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="img/png" href="../Img/Logo Indo.jpg">
+  <title>E-report | Province At Indonesia</title>
+</head>
+<body>
+
+  <nav class="bg-gray-900 px-8 py-6 shadow-md">
+    <div class="navbar max-w-8xl mx-auto flex justify-between items-center">
+
+      <div class="text-xl font-bold text-white" onclick=""><img src="../Img/Logo Indo.jpg" style="width: 60px; height: 30px;"></div>
+
+        <ul class="text-white flex space-x-7 font-semibold text-1xl">
+            <li><a href="#Home" class="hover:text-red-500 transition-colors">Home</a></li>
+            <li><a href="../About/About.html" class="hover:text-red-500 transition-colors">About</a></li>
+            <li><a href="../Main/Main.html" class="hover:text-red-500 transition-colors">Main</a></li>
+            <li><a href="../Help/Help.html" class="hover:text-red-500 transition-colors">Help</a></li>
+        </ul>
+    </div>
+  </nav>
+
+    <section class="relative h-screen w-full overflow-hidden">
+          <video src="https://motionbgs.com/media/883/soothing-ambience-with-breathtaking-waterfall.960x540.mp4" 
+          autoplay 
+          muted 
+          loop 
+          playsinline
+          class="flex h-full w-full -z-10 absolute inset-0 object-cover"></video>
+          <div class="absolute inset-0 bg-black/40 -z-10"></div>
+          <main class="relative z-10 flex h-full items-center justify-center">
+
+          <div class="flex flex-col items-center gap-4 text-center">
+
+          <div class="flex items-center gap-4">          
+            <h1 class="text-8xl font-bold text-red-600 drop-shadow-lg">Indonesian</h1>     
+          <h1 class="text-8xl font-bold text-white drop-shadow-lg"> Province</h1>
+        </div>   
+          <p class="text-white font-bold drop-shadow-lg max-w-xl">"Discover the beauty, rich heritage, and vibrant culture across all 38 Indonesian provinces in one place."</p>
+          </div>
+      </main>
+    </section>
+
+    <section class="bg-slate-900 py-40 px-6" id="Home">
+
+      <div class="max-w-6xl mx-auto mb-12 text-center">
+        <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">About Website</h1>
+        <p class="text-slate-400 text-lg">Mengenal lebih dekat Indonesia melalui web yang mengenalkan tentang provinsi</p>
+      </div>
+
+      <main class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <div
+        class="group bg-slate-800/80 backdrop-blur-md p-8 rounded-2xl border border-slate-700 shadow-xl 
+        transition-all duration-300 ease-in-out hover:translate-y-2 hover:border-red-500/50 hover:shadow-2xl hover:shadow-red-500/50 cursor-pointer flex flex-col justify-between">
+          <div>
+        <div class="flex items-center justify-between mb-6">
+        <h4 class="font-bold text-red-500 text-xl tracking-wide upparcase transition-all duration-300 group-hover:scale-105 group-hover:text-red-400">
+          English Version
+        </h4>
+        <span class="text-xs bg-red-500/10 text-red-400 font-semibold px-3 py-1 rounded-full border border-red-500/20 group-hover:bg-red-500 group-hover:text-white transition-all duration-300">
+          EN
+        </span>
+          </div>
+          <p class="text-slate-300 text-base md:text-lg loading-relaxed text-justify transition-all duration-300 group-hover:text-white">
+            "From the lush rainforests of Sumatra to the majestic peaks of Papua, Indonesia's provinces hold countless stories waiting to be discovered. This project bridges raw regional data with an intuitive interactive experience, allowing users to effortlessly navigate through provincial profiles, key demographics, and local characteristics. Whether you are conducting academic research or simply curious about the boundless wonders of the Indonesian archipelago, our platform offers an engaging gateway to learn and explore."
+          </p>
+          </div>
+        </div>
+
+        <div
+        class="group bg-slate-800/80 backdrop-blur-md p-8 rounded-2xl border border-slate-700 shadow-xl 
+        transition-all duration-300 ease-in-out hover:translate-y-2 hover:border-red-500/50 hover:shadow-2xl hover:shadow-red-500/50 cursor-pointer flex flex-col justify-between">
+          <div>
+        <div class="flex items-center justify-between mb-6">
+        <h4 class="font-bold text-red-500 text-xl tracking-wide upparcase transition-all duration-300 group-hover:scale-105 group-hover:text-red-400">
+          Indonesia Version
+        </h4>
+        <span class="text-xs bg-red-500/10 text-red-400 font-semibold px-3 py-1 rounded-full border border-red-500/20 group-hover:bg-red-500 group-hover:text-white transition-all duration-300">
+          IDN
+        </span>
+          </div>
+          <p class="text-slate-300 text-base md:text-lg loading-relaxed text-justify transition-all duration-300 group-hover:text-white">
+           "Dari hutan hujan Sumatra yang lebat hingga puncak megah Papua, provinsi-provinsi di Indonesia menyimpan cerita tak terhitung yang menanti untuk diungkap. Proyek ini menjembatani data wilayah mentah dengan pengalaman interaktif yang intuitif, memungkinkan pengguna untuk menjelajahi profil provinsi, demografi utama, dan karakteristik lokal secara mudah. Baik kamu sedang melakukan riset akademis atau sekadar penasaran dengan keajaiban kepulauan Indonesia yang tanpa batas, platform kami menyediakan pintu gerbang yang menarik untuk belajar dan menjelajah."
+          </p>
+          </div>
+        </div>
+      </main>
+    </section>
+
+  <footer class="bg-slate-950 border-t border-slate-800 py-8 px-6 text-slate-500 text-sm flex items-center justify-center">
+    <p>&copy; 2026 E-Report Province at Indonesia. All rights reserved</p>
+  </footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
